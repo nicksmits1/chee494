@@ -6,3 +6,8 @@ chee 494 project
     - `matplotlib`
     - `pandas`
     - `jupyterlab`
+- to compile `GRADE` on `olympus`
+    - `cd GRADE`
+    - `module load StdEnv/2023 gcc/12.3`
+    - `make`
+    - `make clean`
