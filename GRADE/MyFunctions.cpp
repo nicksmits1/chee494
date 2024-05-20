@@ -170,6 +170,8 @@ void ring_Finder(int count_solute, int Natoms, vector<int>& Nneigh, vector<vecto
     bool isPresent = false;
     double dist_a1_a4 = 0, dist_a1_a3 = 0 , dist_a2_a5 = 0, dist_a3_a6 = 0;
     double dx,dy,dz;
+
+    //Deltas are tolerances on the degree of convexivity for pentagons (1) and hexagons (2)
     //double delta1_p = 0.18;
     double Lrange5 = 1.6 * HBOND_DIST - delta_p;
 

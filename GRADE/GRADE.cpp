@@ -55,6 +55,7 @@ int main(int argc, char* argv[])
     string inputFilename, s1, s2 ;
     string outputFilename, rawFilename;
     int DT=1, FR=1, THETA=45;
+    // Angle cutoff between planes of deformed rings
     int in_theta=0, in_fr=0, in_dt=0, in_r=0, in_F4=0, in_d1=0, in_d2=0, in_s1=0, in_s2=0;         //This parameter is for whether theta is given as input parameter (1) or taken as default value (0).
     double HBOND_DIST = 0.35;   //Command line input parameter for Hbond_distance cutoff, taken from '-r' flag.
     double delta_p = 0.18, delta_h = 0.26;   //Command line input parameter for delta constraints for pentagon and hexagons.

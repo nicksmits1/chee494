@@ -1,4 +1,5 @@
 CC=g++
+CFLAGS = -std=c++17
 GCCVERS := $(shell gcc -dumpversion)
 GCCVERSGT6 := $(shell expr `gcc -dumpversion |cut -f1 -d.` \>= 6 )
 ifeq "$(GCCVERSGT6)" "0"
